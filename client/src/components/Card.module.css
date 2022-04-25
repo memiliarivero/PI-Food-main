@@ -1,0 +1,44 @@
+.card{
+   display:inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.5%;
+    margin-left: 0.6%;
+    margin-right: 1.0%;
+    margin-top: 1.7%;
+    
+   /*  box-shadow:coral; */
+    font-style: 'Bahnschrift SemiCondensed';
+    color:white;
+    
+    padding: 10px; 
+
+
+
+
+
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.5s;
+}
+.cd{
+    padding: 5px;
+    width: 8cm;
+    height: 11cm;
+}
+.cardimg{
+    border-radius: 5px;
+}
+.tipes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0.25cm;
+    padding: 1px;
+    
+}
+p{color:white;
+text-decoration:none;}
